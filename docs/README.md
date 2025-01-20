@@ -153,5 +153,3 @@ We welcome contributions from the community! Here’s how you can help:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feel free to modify and update this `README.md` as the project evolves. This will help you document the system for yourself and others who might use or contribute to it in the future.
