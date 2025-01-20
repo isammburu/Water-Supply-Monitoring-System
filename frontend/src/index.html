@@ -1,0 +1,25 @@
+<!-- frontend/src/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Supply Monitoring</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Water Supply Monitoring</h1>
+    <form id="dataForm">
+        <label for="water_level">Water Level (liters):</label>
+        <input type="number" id="water_level" required>
+        <label for="flow_rate">Flow Rate (L/s):</label>
+        <input type="number" id="flow_rate" required>
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Water Usage Data</h2>
+    <div id="data"></div>
+    <h2>Water Level Chart</h2>
+    <canvas id="waterLevelChart"></canvas>
+</body>
+</html>
